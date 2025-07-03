@@ -22,7 +22,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/FabioMartignoni89/maps-core", .exact("3.3.5")),
+        .package(url: "https://github.com/FabioMartignoni89/maps-core.git", .exact("3.3.5")),
         .package(url: "https://github.com/openmobilemaps/layer-gps.git", .exact("3.3.3"))
     ],
     targets: [
